@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    
+}
+
+.navbar img {
+    height: 55px;
+}
+
+menu1 {
+    margin-left: 30px;
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    height: 600px;
+    background-image:url(https://www.tbf.org/-/media/tbf/placeholders/feature/banners/hero/mtm-home-banner.jpg?w=1290&hash=5DFA792B657CB05AC887B32285F68D97); /* Replace */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    color: white;
+    margin-left: 60px;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.hero-btn {
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #0074CE;
+    padding: 14px 30px;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.news {
+    padding: 80px 60px;
+}
+
+.news h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tag {
+    display: inline-block;
+    background: #0074CE;
+    color: white;
+    padding: 6px 12px;
+    margin: 20px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.card h3 {
+    margin: 0 20px;
+    font-size: 22px;
+}
+
+.card p {
+    margin: 10px 20px 0;
+    color: #444;
+}
+
+.mission {
+    display: flex;
+    align-items: center;
+    padding: 80px 60px;
+    gap: 60px;
+}
+
+.mission-text h2 {
+    font-size: 44px;
+}
+
+.mission-text p {
+    margin-top: 20px;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+.mission-btn {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0074CE;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.mission-img {
+    width: 45%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    background: #003B7B;
+    color: white;
+    padding: 70px 0;
+}
+
+.stat h3 {
+    font-size: 52px;
+    text-align: center;
+}
+
+.stat p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer {
+    background: #f0f0f0;
+    padding: 60px 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-col a {
+    display: block;
+    color: #555;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
